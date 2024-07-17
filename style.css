@@ -40,7 +40,7 @@ p, ul {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type:circle;
     list-style-position: inside;
 }
 
@@ -73,4 +73,36 @@ a {
 }
 a:hover{
     color: black;
+}
+
+.navbar {
+    background-color: rgb(17, 1, 58);
+    width: 100%;
+    top: 0;
+    margin: 10px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    justify-content: space-around;
+    display: flex;
+}
+
+.navbar a {
+     color: white;
+     padding: 15px;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     background-color: rgb(17, 1, 58);
+ }
+
+.navbar a:hover{
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
 }
