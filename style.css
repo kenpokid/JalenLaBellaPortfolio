@@ -81,6 +81,7 @@ a:hover{
     top: 0;
     margin: 10px;
     z-index: 1000;
+    max-width: 100%;
 }
 .navbar ul {
     list-style-type: none;
