@@ -74,6 +74,7 @@ a {
 a:hover{
     color: black;
 }
+
 .navbar {
     background-color: rgb(17, 1, 58);
     width: 100%;
@@ -108,16 +109,18 @@ a:hover{
 }
 @media (max-width: 768px) {
     
-.navbar {
-    flex-direction: column;
-    align-items: center; 
-    padding: 10px 0; 
-}
 
-.navbar a {
-    padding: 10px 0;
-}
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+        padding: 10px 0; 
+    }
 
-.navbar ul {
-    flex-direction: column; 
+        .navbar a {
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            flex-direction: column; 
+        }
 }
